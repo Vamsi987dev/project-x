@@ -1,4 +1,4 @@
-resource "aws_instance" "bastion" {
+resource "aws_instance" "ec2" {
     ami = var.ami
     instance_type = var.instance_type
     vpc_security_group_ids = [data.aws_ssm_parameter.bastion_sg_id.value]

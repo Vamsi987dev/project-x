@@ -16,7 +16,7 @@ variable "instance_type" {
 }
 variable "common_tags" {
   default = {
-    Project     = "Expense"
+    Project     = "project-x"
     Environment = "Dev"
     Terraform   = "True"
   }
